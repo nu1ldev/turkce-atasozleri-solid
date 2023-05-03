@@ -1,0 +1,277 @@
+[
+  {
+    "title": "Dostluk",
+    "categoryItems": [
+      {
+        "key": 0,
+        "title": "Dost acı söyler",
+        "definition": "Dost olan kimse dostundan gerçeği saklamaz, dostunun kusurunu, yanlışını acı da olsa söyler, dostunu uyarır, dostun acı sözü iyilik içindir."
+      },
+      {
+        "key": 1,
+        "title": "Dost, dostun eyerlenmiş atıdır.",
+        "definition": "Gerçek dost, arkadaşının sıkışık zamanında yardımına koşmayı bilir."
+      },
+      {
+        "key": 2,
+        "title": "Fakir dost, çabuk unutulur",
+        "definition": "Fakir ve yoksul kişilerin imkânları kısıtlıdır. Kendi ihtiyaçları olduğu için başkalarına yardımcı olamazlar. Olumlu katkı sağlayamadıkları için kendilerine fazla ihtiyaç hissedilmez, bu nedenle fakir dostlar çabuk unutulur."
+      },
+      {
+        "key": 3,
+        "title": "Dostun attığı taş baş yarmaz",
+        "definition": "Dostun hırpalaması, acı sözü güce gitmez, çünkü dost bunu dostunun iyiliğini düşündüğü için yapar, dostu da bunu bildiği için gücenmez."
+      },
+      {
+        "key": 4,
+        "title": "Dost başa, düşman ayağa bakar",
+        "definition": "Temiz giyinip kuşanmak hem dost, hem de düşman için ehemmiyet göstermektedir."
+      },
+      {
+        "key": 5,
+        "title": "Dost ağlatır, düşman güldürür",
+        "definition": "Düşman, bizim kusurlu olmamızı ister, onun için gerçeği söylemez, hoşa gidecek şeyler söyler, dost ise kusurumuzu söylemekten çekinmez, bunu görev bilir."
+      },
+      {
+        "key": 6,
+        "title": "Dost ağlatır, düşman güldürür",
+        "definition": "Gerçek dost, insanın kusurunu yüzüne söyler, bu, dostuna iyilik etmektir, dostunun kusurunu onun arkasından söylerse kovculuk etmiş olur."
+      }
+    ]
+  },
+  {
+    "title": "Sabırlılık",
+    "categoryItems": [
+      {
+        "key": 7,
+        "title": "Beklemesini bilenin her şey ayağına gelir",
+        "definition": "Hiç kimsenin sonsuz bir zamanı yok. Ve, pişmanlık eninde sonunda yaşanılacak bir olgu ise eğer, kişi, yaşadığı şeylerin pişmanlığını çekmeli. Yaşamadığı şeylerin değil."
+      },
+      {
+        "key": 8,
+        "title": "Genişlik sabırdan doğar",
+        "definition": "Sabreden kişi, istediğine mutlaka ulaşır."
+      },
+      {
+        "key": 9,
+        "title": "Ehil olmayanlara sabretmek ehil olanları parlatır",
+        "definition": "Bir iş hakkında olmayanlar, boş beleş atıp tutan fevri insanlara karşı hoşgörülü olmak büyüklüktür."
+      },
+      {
+        "key": 10,
+        "title": "Sabreden derviş muradına ermiş",
+        "definition": "Kimi işlerin gerçekleşmesi için sabırlı olmak, sabırla beklemek gerekir, sabırla beklemesini bilen sonunda amacına ulaşır."
+      }
+    ]
+  },
+  {
+    "title": "Tutumluluk",
+    "categoryItems": [
+      {
+        "key": 11,
+        "title": "Sakla samanı gelir zamanı",
+        "definition": "En değersiz şeyi bile atmamalı, bir yana koymalı, günün birinde gerekebilir, işe yarar."
+      },
+      {
+        "key": 12,
+        "title": "Bol bol yiyen, bel bel bakar",
+        "definition": "Kazandığını bol bol yiyip ilerisi için bir şey artırmayan kişi, kazançsız kaldığı zaman acıklı duruma düşer."
+      },
+      {
+        "key": 13,
+        "title": "Ayağını yorganına göre uzat",
+        "definition": "Kişinin eline bir miktar para geçtiyse o parayı tasarruflu kullanmayı bilmeli."
+      },
+      {
+        "key": 14,
+        "title": "İşten artmaz dişten artar",
+        "definition": "İnsan ne kadar çok çalışıp para kazanırsa kazansın, onu tutumlu harcamasını bilmezse para artıramaz."
+      }
+    ]
+  },
+  {
+    "title": "Doğruluk",
+    "categoryItems": [
+      {
+        "key": 15,
+        "title": "Doğru söyleyenin bir ayağı üzengide gerek",
+        "definition": "Doğru sözlü olan kişi, bulunduğu yerden ayrılmaya hazır olmalıdır Çünkü sevilmeyen, istenmeyen kişi olacak, orada barınamayacaktır."
+      },
+      {
+        "key": 16,
+        "title": "Doğru söz katarından belli olur",
+        "definition": "Bir sözün doğru olup olmadığı gelişinden, tutarlı olup olmamasından anlaşılır."
+      },
+      {
+        "key": 17,
+        "title": "Doğru söz yemin istemez",
+        "definition": "Yemin, yalan olduğu düşünülebilen sözün doğruluğuna inandırmak içindir Sözün doğruluğunda kuşku yoksa yemine gereklik yoktur."
+      },
+      {
+        "key": 18,
+        "title": "Doğruluk dost kapısı",
+        "definition": "Doğru olan kişiyi herkes dost bilir. Herkes ona koşar."
+      },
+      {
+        "key": 19,
+        "title": "Doğruluk minarede kalmış",
+        "definition": "Dünyada doğru kimse kalmamıştır Doğru sandığımız binde bir kişi de içinden eğridir; dıştan göründüğü gibi değildir."
+      },
+      {
+        "key": 20,
+        "title": "Adalet ile zulüm bir yerde barınmaz",
+        "definition": "Bu iki şey tamamen bir birinin karşıtıdır. Hak, hukuk ve doğruluğun bulunduğu yerde zulüm olamaz, zalimler bulunamaz. Zulmün bulunduğu yerde ise hak yeme, sömürü, eğrilik, azgınlık vardır ve orada da ne adalet ne de âdil vardır."
+      },
+      {
+        "key": 21,
+        "title": "Doğru söyleyeni dokuz köyden kovarlar",
+        "definition": "Özellikle çıkarlarını düşünen insanların çoğaldığı, fedakârlığın azaldığı yerlerde yalan dolan, hile, ahlâksızlık artar ve insanlar iki yüzlü olurlar Böyle bir ortamda doğru sözlü olan, sözünü esirgemeyen ve sakınmadan herkesi eleştiren kişiyi kimse sevmez Herkes onu kınar, yanından ve yöresinden uzaklaştırmaya çalışır Çünkü bu kişi doğru sözleriyle ahlâksızlık üzerine bina edilmiş menfaat düzenini bozmaya çalışır ve çok kimseyi rahatsız eder Dolayısıyla çıkarları zedelenen, kusurları yüzüne söylenen, ikiyüzlülükleri yüzlerine çarpılan insanlar tarafından hor görülüp kovulurlar."
+      }
+    ]
+  },
+  {
+    "title": "Cömertlik",
+    "categoryItems": [
+      {
+        "key": 22,
+        "title": "Cömert derler maldan ederler, yiğit derler candan ederler",
+        "definition": "Cömert kişi malını mülkünü paylaşır sonra tüketir; yiğit olan tehlikeye atılır canına kıyar. Sırf tebrik almak için bir kova su içilmemelidir."
+      },
+      {
+        "key": 23,
+        "title": "Cömertle nekesin harcı birdir",
+        "definition": "Cömert malın iyisini alarak uzun süre kullanır; cimri ise malın ucuzunu alır ve kullanamaz tekrar almak zorunda kalır. Böylece cömertle cimrinin harcadıkları para aynı olur."
+      },
+      {
+        "key": 24,
+        "title": "Yiğit yiğide at bağışlar",
+        "definition": "Yiğit, arkadaşı için her sıkıntıya katlanır, onun işine yarar diye en değerli varlığını bile bağışlar."
+      },
+      {
+        "key": 25,
+        "title": "Dilenci bir olsa şekerle beslenir",
+        "definition": "Yardım bekleyen bir tane olsa, umduğundan aşırı şeyler verilerek sevindirilir. Ama bunlar çok olduğundan hepsine bu cömertlikle yardım yapılamaz."
+      }
+    ]
+  },
+  {
+    "title": "Çalışkanlık",
+    "categoryItems": [
+      {
+        "key": 26,
+        "title": "İşleyen demir ışıldar",
+        "definition": "Bir iş yapmadan oturan kimse bildiklerini unutur, yeteneklerini yitirir. Çalışan kimse gittikçe açılır, daha yararlı işler yapar."
+      },
+      {
+        "key": 27,
+        "title": "Akan su yosun tutmaz",
+        "definition": "Akan su sürekli akış durumunda olduğu için yosunlanma olmaz; bunun gibi, çalışan insan da tembelliğin kötülüklerine uğramaz."
+      },
+      {
+        "key": 28,
+        "title": "Emek olmadan yemek olmaz",
+        "definition": "Geçinmek için çalışıp kazanmak gerekir."
+      },
+      {
+        "key": 29,
+        "title": "Yazın çalışan kışın gülüşür",
+        "definition": "İnsanların rahat ve huzurlu yaşamasında maddi durum çok etkilidir. Maddi imkânı olmayan kişilerin çalışıp para kazanması gerekir. Çalışma zamanında fırsatları değerlendirip kazanç elde eden, birikim yapan kişiler, zorlu hayat şartları karşısında sıkıntı ve zorluk çekmezler. Çalışmanın gerekli olduğu zamanlarda çalışmayıp tembellik eden kişi, sürekli sıkıntı ve zorluklarla karşılaşır."
+      },
+      {
+        "key": 30,
+        "title": "Boş gezmekten bedava çalışmak yeğdir",
+        "definition": "Boş gezmek, kişiyi tembelliğe alıştırır ve herkesin gözünden düşürür. Çalışmak ise, para karşılığında olmasa bile, kişinin yeteneğini artırır ve tembel olmadığını göstererek iş bulmasına yardım eder."
+      },
+      {
+        "key": 31,
+        "title": "Yazın başı pişenin, kışın aşı pişer",
+        "definition": "Yazın güneş altında çalışan kişi, ailesinin kışlık tahılını kazanır."
+      },
+      {
+        "key": 32,
+        "title": "Yazın gölge hoş, kışın çuval boş",
+        "definition": "Yazın gölgelerde tembel tembel oturan, çalışmayan kışın yiyecek bulamaz."
+      }
+    ]
+  },
+  {
+    "title": "Yardımlaşma",
+    "categoryItems": [
+      {
+        "key": 33,
+        "title": "Bir elin nesi var iki elin sesi var",
+        "definition": "Bir kişinin gücü sınırlıdır. Bazı şeylere gücü yetmez. Ama kişiler birleşince zorlukların üstesinden gelebilirler."
+      },
+      {
+        "key": 34,
+        "title": "Birlikten kuvvet doğar",
+        "definition": "İşler birlikte daha kolay halledilir."
+      },
+      {
+        "key": 1,
+        "title": "Yalnız öküz çifte koşulmaz",
+        "definition": "Eğer bir iş 2 kişi ile bitirilebilecek bir iş ise bunu tek kişi yapmak yanlış karardır."
+      },
+      {
+        "key": 35,
+        "title": "Komşu komşunun külüne muhtaçtır",
+        "definition": "Komşular dayanışma içerisinde hareket etmelidir. Komşular birbirine, birbirinin yardımına muhtaçtır."
+      },
+      {
+        "key": 36,
+        "title": "Dost kara günde belli olur",
+        "definition": "Gerçek dost, sıkıntılı gününde onun sana vereceği yardım ile belli olur."
+      },
+      {
+        "key": 37,
+        "title": "Nerede birlik orada dirlik",
+        "definition": "Her yönden dayanışma ve anlaşma olan yerlerde huzur vardır."
+      },
+      {
+        "key": 38,
+        "title": "Danışan dağları aşmış, danışmayan düz yolda şaşmış",
+        "definition": "Fikir alış-verişi ile de zorlukları aşabiliriz."
+      },
+      {
+        "key": 39,
+        "title": "Baş başa vermeyince taş yerden kalkmaz",
+        "definition": "Dayanışma ile zor işlerin üstesinden gelinebilir."
+      },
+      {
+        "key": 40,
+        "title": "Yalnız taş duvar olmaz",
+        "definition": "Bir tek taşla duvar örülemez, onun gibi, insan tek başına bir işi başaramaz."
+      }
+    ]
+  },
+  {
+    "title": "Temizlik",
+    "categoryItems": [
+      {
+        "key": 41,
+        "title": "Evini temiz tut misafir gelebilir, kendini temiz tut Azrail gelebilir",
+        "definition": "Kişinin evinin her an temiz olması misafir ağırlamak için önemlidir. Kalbini ve ruhunu temiz tutmak ise insanın ahiret hayatı için önemlidir."
+      },
+      {
+        "key": 42,
+        "title": "İnsanı elbisesine göre karşılarlar, bilgisine göre ağırlarlar",
+        "definition": "İnsanlar ilk kez karşılaştıkları kişilerin dış görünüşüne ve temizliğine bakarlar. Tanıdıktan sonra ise bilgisine bakarlar."
+      },
+      {
+        "key": 43,
+        "title": "Temiz avlu evin süsüdür",
+        "definition": "Ev ne kadar gösterişli olursa olsun temiz değilse süslü görünmez."
+      },
+      {
+        "key": 44,
+        "title": "Aslan yattığı yerden belli olur",
+        "definition": "Dışarıdan bakan insanlar sizi evinizin temizliğine göre yargılayacaklardır."
+      },
+      {
+        "key": 45,
+        "title": "Vücudunu kirden, ağzını küfürden, kalbini kirden koru",
+        "definition": "Temizlik sadece evi temiz tutmak değildir. Kendimizi geliştirmek için vücudumuza ve konuştuğumuz kelimelere de dikkat etmemiz gerekir."
+      }
+    ]
+  }
+]
