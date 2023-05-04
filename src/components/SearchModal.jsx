@@ -8,6 +8,16 @@ const SearchModal = ({ toggleHandler, close }) => {
    * ! close: setter function, toggleHandler: actual value
    */
   const [query, setQuery] = createSignal('')
+
+  const titleCase = str => {
+    const splitStr = str.toLowerCase().split(' ')
+    for (let i = 0; i < splitStr.length; i++) {
+      splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1)
+    }
+    // Directly return the joined string
+    return splitStr.join(' ')
+  }
+
   return (
     <div>
       {toggleHandler() && (
@@ -51,8 +61,8 @@ const SearchModal = ({ toggleHandler, close }) => {
                   )
                   .map(item => {
                     return (
-                      <div class='bg-slate-700 text-white font-poppins pl-4 flex items-center h-12 w-full rounded-lg'>
-                        <a href={`/${slug(item.sozum)}`}>{item.sozum}</a>
+                      <div class='bg-slate-700 text-white pl-4 flex items-center h-12 w-full rounded-lg'>
+                        <a href={`/${slug(item.sozum)}`}>{titleCase(item.sozum)}</a>
                       </div>
                     )
                   })}

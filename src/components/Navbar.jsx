@@ -2,7 +2,7 @@ import reisList from '../data/navbarItems.json'
 import { For } from 'solid-js'
 import logo from '../assets/bookmark.svg'
 import Search from './Search'
-import { magnifyingGlass } from '../assets'
+import { discordIcon, githubIcon, magnifyingGlass, vercelIcon } from '../assets'
 
 const Navbar = () => {
   return (
@@ -21,14 +21,20 @@ const Navbar = () => {
         </div>
         <Search />
       </div>
-      {reisList.map(item => (
-        <a
-          class='navbar-item text-[14px] '
-          href={item?.link ?? '#'}
-        >
-          {item?.title ?? 'Başlık yok'}
-        </a>
-      ))}
+      {/*
+      <a class='navbar-item text-[14px]' href="#">
+        Sözlük <i>(Daha yapmadim)</i>
+      </a>
+      <a class='navbar-item text-[14px]' href="#">
+        <img width={30} height={30} src={discordIcon} alt="Discord Logo" />
+      </a>
+      <a class='navbar-item text-[14px]' href="https://github.com/Null313">
+        <img width={30} height={30} src={githubIcon} alt="Github Logo" />
+      </a>
+      <a class='navbar-item text-[14px]' href="https://vercel.com">
+        <img width={30} height={30} src={vercelIcon} alt="Vercel Logo" />
+      </a>
+      */}
       <button
         class='xs:block md:hidden'
         id='menu'

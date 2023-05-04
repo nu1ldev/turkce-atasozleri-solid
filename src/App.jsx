@@ -38,17 +38,50 @@ const App = () => {
         />
       </div>
       <div class='bg-slate-700 h-72 w-full'>
-        <div class='h-32 ml-5 flex'>
+        <div class='h-32 ml-[8rem] flex'>
           <div class='h-[inherit] flex mt-5'>
             <div class='w-2 h-[inherit] bg-slate-200' />
             <div
               class='ml-3 w-96 flex-wrap'
-              id='yuzlerce--content'
+              id='onlarca--content'
             >
-              <h1 class='text-4xl text-white'>Yüzlerce Atasözü</h1>
+              <h1 class='text-4xl text-white'>Onlarca Atasözü</h1>
               <p className='text-white text-lg'>
-                Yüzlerce atasözü içeren kütüphanemiz içerisinden ne dilerseniz
-                arayın
+                Onlarca atasözü içeren kütüphanemiz içerisinden ne dilerseniz arayın
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='bg-slate-800 h-72 w-full'>
+        <div class='h-32 mr-[8rem] flex justify-end'>
+          <div class='h-[inherit] flex flex-row-reverse text-end mt-5'>
+            <div class='w-2 h-[inherit] bg-slate-200' />
+            <div class='mr-3 w-96 flex-wrap' id='hizli--arama'>
+              <h1 class='text-4xl text-white'>Hızlı Arama</h1>
+              <p className='text-white text-lg'>
+                Gelişmiş arama bölümümüzde istediğiniz atasözünü arayın <i>(Bulunacağının garantisi verilmemektedir, aslında fazla atasözü de yok)</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='bg-slate-900 h-80 w-full'>
+        <div class='h-72 ml-[8rem] flex'>
+          <div class='h-[inherit] flex mt-5'>
+            <div class='w-2 h-[inherit] bg-slate-200' />
+            <div
+              class='ml-3 w-96 flex-wrap'
+              id='site--hakkinda'
+            >
+              <h1 class='text-4xl text-white'>Bu Site Hakkında</h1>
+              <p className='text-white text-lg'>
+                Bu site, <a href="https://github.com/Null313">Null</a> tarafından sadece 2 günde 
+                <span class='italic text-zinc-400'>(3 Mayıs 2023 ve 4 Mayıs 2023 tarihleri arasında,){' '}</span>
+                 2022 - 2023 Eğitim Öğretim yıllarında Türkçe dersinin proje ödevi olarak hazırlanmıştır.
+                (Aslında farklı bir projeyle buraya gelicektim fakat bir gece fikrim değişti ve acaba 2 günde
+                 yapabilir miyim diye düşündüm, ve oldu da. Bence şimdiye kadar en çok özendiğim ve en çok uğraş
+                  verdiğim projem bu oldu.)
               </p>
             </div>
           </div>
@@ -60,3 +93,6 @@ const App = () => {
 }
 
 export default App
+/**
+ * Bari 100 satır olsun be
+ */
