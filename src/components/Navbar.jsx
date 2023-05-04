@@ -9,13 +9,15 @@ const Navbar = () => {
     <nav class='flex items-center bg-slate-900 justify-evenly h-16'>
       <div class='flex gap-x-3'>
         <div class='flex text-teal-600 text-xl items-center font-poppins'>
-          <img
-            width={30}
-            height={30}
-            src={logo}
-            alt='Atasözleri Logo'
-          />
-          <p>ATASÖZLERİ</p>
+          <a class='flex text-teal-600 text-xl items-center font-poppins' href="/">
+            <img
+              width={30}
+              height={30}
+              src={logo}
+              alt='Atasözleri Logo'
+            />
+            <p>ATASÖZLERİ</p>
+          </a>
         </div>
         <Search />
       </div>

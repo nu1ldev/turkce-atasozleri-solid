@@ -24,55 +24,17 @@ const Atasozu = () => {
   const params = useParams()
   const unslugged = unslug(params.slug)
   return (
-    <div class='h-full'>
+    <div class='font-barlow'>
       <Navbar />
-      <div class='w-full flex flex-row'>
-        <div class='grow'>
-          <h1 class='text-5xl text-center font-barlow'>
-            {titleCase(
-              atasozleriGelismis.find(
-                item =>
-                  item.sozum ==
-                  didyoumean2(
-                    params.slug,
-                    atasozleriGelismis.map(item => item.sozum)
-                  )
-              ).sozum
-            )}
-          </h1>
-          <div
-            class=''
-            id='anahtar-kelimeler'
-          >
-            <div class='flex gap-x-3 w-64'>
-              <div class='bg-teal-600 w-2 h-20' />
-              <div>
-                <span class='text-slate-950 text-2xl'>
-                  Anahtar kelime/kelimeler:
-                </span>
-                <p>
-                  {
-                    atasozleriGelismis.find(
-                      item =>
-                        item.sozum ==
-                        didyoumean2(
-                          params.slug,
-                          atasozleriGelismis.map(item => item.sozum)
-                        )
-                    ).anahtar
-                  }
-                </p>
-              </div>
-            </div>
-          </div>
+      <div class='flex flex-col justify-center gap-y-5 '>
+        <h1 class='text-5xl text-center font-barlow'>
+          {titleCase(atasozleriGelismis.find(item => item.sozum == didyoumean2(params.slug, atasozleriGelismis.map(item => item.sozum))).sozum)}
+        </h1>
+        <div class='text-center text-xl' id='anahtar-kelimeler'>
+          <span class='text-rose-600'>Anahtar kelime/kelimeler:</span> {titleCase(atasozleriGelismis.find(item => item.sozum == didyoumean2(params.slug, atasozleriGelismis.map(item => item.sozum))).anahtar)}
         </div>
-        <div class='h-[1000px]'>
-          <img
-            width={960}
-            height={3000}
-            src={getRandomImage()}
-            alt='Background Image'
-          />
+        <div class='text-center text-3xl' id="anlami">
+          <span class='text-rose-600'>Anlamı:</span> {titleCase(atasozleriGelismis.find(item => item.sozum == didyoumean2(params.slug, atasozleriGelismis.map(item => item.sozum))).anlami)}
         </div>
       </div>
     </div>

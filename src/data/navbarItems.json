@@ -1,26 +1,10 @@
 [
   {
-    "title": "Hakkımda",
-    "link": "/hakkimda"
-  },
-  {
     "title": "Sözlük",
     "link": "https://sozluk.vercel.app"
   },
   {
-    "title": "Ama",
-    "link": "#"
-  },
-  {
-    "title": "Bu sefer",
-    "link": "#"
-  },
-  {
-    "title": "SolidJS",
-    "link": "#"
-  },
-  {
-    "title": "Ile",
-    "link": "#"
+    "title": "Discord",
+    "link": ""
   }
 ]
