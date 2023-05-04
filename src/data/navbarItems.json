@@ -1,11 +1,11 @@
 [
   {
-    "title": "Reis",
-    "link": "#"
+    "title": "Hakkımda",
+    "link": "/hakkimda"
   },
   {
-    "title": "Navbar",
-    "link": "#"
+    "title": "Sözlük",
+    "link": "https://sozluk.vercel.app"
   },
   {
     "title": "Ama",

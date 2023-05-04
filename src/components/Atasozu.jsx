@@ -1,13 +1,11 @@
-import { createSignal } from "solid-js"
-import Button from "./Button"
-import Modal from "./Modal"
+import { useParams } from "@solidjs/router"
+import unslug from "unslug"
 
-const Atasozu = ({ title, description }) => {
-  const [isVisible, setIsVisible] = createSignal(false)
+const Atasozu = () => {
+  const params = useParams()
   return (
-    <div>
-      <Button label={title} onClick={() => setIsVisible(prev => !prev)} />
-      <Modal title={title}  close={setIsVisible} toggleHandler={isVisible} hasText text={description} />
+    <div class='items-center justify-center flex text-7xl'>
+      {unslug(params.slug)}
     </div>
   )
 }

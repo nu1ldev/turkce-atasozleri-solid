@@ -15,15 +15,15 @@ const App = () => {
       <div class='w-full h-[25rem] flex'>
         <div class='w-1/3 flex items-center gap-x-5'>
           <h1 class=' ml-12 flex flex-col text-7xl'>
-             <span class='text-teal-500'>En Gelişmiş</span>
+             <span class='text-teal-500'>Gelişmiş</span>
             <span>Atasözü Kitaplığı</span>
           </h1>
-          <div class='flex gap-x-2'>
+          <div class='xs:flex-col flex xs:gap-y-2 gap-x-2'>
             <Button classes={''} hasImage={true} image={magnifyingGlass} label={'Ara'} onClick={() => setHomeSearch(prev => !prev)} />
             <SearchModal close={setHomeSearch} toggleHandler={homeSearch} title={'Ara'} />
           </div>
         </div>
-        <div class='bg-gradient-to-r w-2/3 from-transparent to-teal-600 h-[inherit]' id="gradient"/>
+        <div class='bg-gradient-to-r w-2/3 from-transparent via-teal-500 to-teal-700 h-[inherit] xs:hidden' id="gradient"/>
       </div>
       <div class='bg-slate-700 h-72 w-full' >
         <div class='h-32 ml-5 flex'>
@@ -32,7 +32,7 @@ const App = () => {
             <div class='ml-3 w-96 flex-wrap' id="yuzlerce--content">
               <h1 class='text-4xl text-white'>Yüzlerce Atasözü</h1>
               <p className="text-white text-lg">
-                Yüzlerce atasözü içeren kütüphanemiz içerisinden ne dilersen ara
+                Yüzlerce atasözü içeren kütüphanemiz içerisinden ne dilerseniz arayın
               </p>
             </div>
           </div>

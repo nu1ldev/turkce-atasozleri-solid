@@ -9,7 +9,9 @@ module.exports = {
         'barlow': 'Barlow, sans-serif',
         'poppins': 'Poppins, sans-serif'
       },
-      
+      screens: {
+        xs: '100px',
+      }
     }
   },
   plugins: [],
