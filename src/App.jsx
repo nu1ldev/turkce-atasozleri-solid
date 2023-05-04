@@ -19,11 +19,11 @@ const App = () => {
             <span>Atasözü Kitaplığı</span>
           </h1>
           <div class='xs:flex-col flex xs:gap-y-2 gap-x-2'>
-            <Button classes={''} hasImage={true} image={magnifyingGlass} label={'Ara'} onClick={() => setHomeSearch(prev => !prev)} />
-            <SearchModal close={setHomeSearch} toggleHandler={homeSearch} title={'Ara'} />
+            <Button hasImage={true} image={magnifyingGlass} label={'Ara'} onClick={() => setHomeSearch(prev => !prev)} classes={''} />
+            <SearchModal close={setHomeSearch} toggleHandler={homeSearch} />
           </div>
         </div>
-        <div class='bg-gradient-to-r w-2/3 from-transparent via-teal-500 to-teal-700 h-[inherit] xs:hidden' id="gradient"/>
+        <div class='bg-gradient-to-r w-2/3 from-transparent via-teal-500 to-teal-700 h-[inherit] xs:hidden md:block' id="gradient"/>
       </div>
       <div class='bg-slate-700 h-72 w-full' >
         <div class='h-32 ml-5 flex'>

@@ -1,10 +1,9 @@
 import { createSignal } from 'solid-js'
 import slug from'slug'
 import closeIcon from '../assets/close.svg'
-import Input from './Input'
 import { atasozleriGelismis } from '../data'
 
-const SearchModal = ({ title, toggleHandler, close }) => {
+const SearchModal = ({ toggleHandler, close }) => {
   /** 
    * ! close: setter function, toggleHandler: actual value
   */
@@ -19,14 +18,13 @@ const SearchModal = ({ title, toggleHandler, close }) => {
                 <img src={closeIcon} alt="Kapat" />
               </button>
               <h1 class='text-2xl flex font-barlow'>
-                {title}
+                Ara
               </h1>
             </div>
             <div id="middle">
               <input type="text" placeholder={'Ara'} onChange={evt => setQuery(evt.currentTarget.value)} class='py-3 px-4 rounded focus:ring-teal-700 focus:ring-4 placeholder:text-gray-600 transition focus:placeholder:text-gray-800 bg-slate-400 outline-none text-lg w-full text-gray-800' />
               <div class='flex flex-col gap-y-3' id="arama-sonucu">
                 {atasozleriGelismis.filter(item => item.sozum.toLowerCase().includes(query().toLowerCase())).map(item => {
-                  console.log(item)
                   return (
                     <div class='bg-slate-700 text-white font-poppins pl-4 flex items-center h-12 w-full rounded-lg'>
                       <a href={`/${slug(item.sozum)}`}>{item.sozum}</a>

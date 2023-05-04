@@ -12,7 +12,7 @@ const Search = () => {
       </button>
       {isShown() && (
         <div id="modal">
-          <SearchModal toggleHandler={isShown} close={setIsShown} title='Search'/>
+          <SearchModal toggleHandler={isShown} close={setIsShown}/>
         </div>
       )}
     </div>
