@@ -34,7 +34,7 @@ const Navbar = () => {
       >
         <img
           src={magnifyingGlass}
-          alt="Menü"
+          alt='Menü'
         />
       </button>
     </nav>
