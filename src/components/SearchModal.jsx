@@ -52,7 +52,7 @@ const SearchModal = ({ toggleHandler, close }) => {
                 class='py-3 px-4 rounded focus:ring-teal-700 focus:ring-4 placeholder:text-gray-600 transition focus:placeholder:text-gray-800 bg-slate-400 outline-none text-lg w-full text-gray-800'
               />
               <div
-                class='flex flex-col gap-y-3'
+                class={`flex flex-col gap-y-3 ${!query() ? 'invisible' : 'visible'}`}
                 id='arama-sonucu'
               >
                 {atasozleriGelismis
@@ -60,11 +60,17 @@ const SearchModal = ({ toggleHandler, close }) => {
                     item.sozum.toLowerCase().includes(query().toLowerCase())
                   )
                   .map(item => {
-                    return (
+                    if (query()) {
+                      return (
                       <div class='bg-slate-700 text-white pl-4 flex items-center h-12 w-full rounded-lg'>
                         <a href={`/${slug(item.sozum)}`}>{titleCase(item.sozum)}</a>
                       </div>
-                    )
+                      )
+                    } else if (!query()) {
+                      return (
+                        <div>Bir atasözü aramayı deneyin...</div>
+                      )
+                    }
                   })}
               </div>
             </div>
